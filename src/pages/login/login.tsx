@@ -1,6 +1,6 @@
 import { FC, SyntheticEvent, useState } from 'react';
 import { LoginUI } from '@ui-pages';
-import { useDispatch } from 'react-redux';
+import { useDispatch } from '../../services/store';
 import { useNavigate } from 'react-router-dom';
 import { loginUser } from '../../services/userSlice';
 import { AppDispatch } from '../../services/store';
