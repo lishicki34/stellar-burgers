@@ -5,7 +5,7 @@ import { useSelector } from '../../services/store';
 import { RootState } from '../../services/store';
 import { useDispatch } from '../../services/store';
 import { useEffect } from 'react';
-import { getFeeds } from '../../services/feedSlice';
+import { getFeeds } from '../../services/slices/feedSlice';
 
 export const Feed: FC = () => {
   const dispatch = useDispatch();
