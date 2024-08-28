@@ -4,14 +4,14 @@ import { TConstructorIngredient, TIngredient } from '@utils-types';
 import { orderBurgerApi } from '@api';
 import { TOrder, RequestStatus } from '@utils-types';
 
-interface TConstructorState {
+export interface TConstructorState {
   bun: TConstructorIngredient | null;
   ingredients: TConstructorIngredient[];
   order: TOrder | null;
   requestStatus: RequestStatus;
 }
 
-const initialState: TConstructorState = {
+export const initialState: TConstructorState = {
   bun: null,
   ingredients: [],
   order: null,

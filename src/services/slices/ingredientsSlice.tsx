@@ -7,7 +7,7 @@ type TIngredientState = {
   status: RequestStatus;
 };
 
-const initialState: TIngredientState = {
+export const initialState: TIngredientState = {
   data: [],
   status: RequestStatus.Idle
 };
@@ -41,3 +41,4 @@ export const ingredientsSlice = createSlice({
 });
 
 export const selectorIngredients = ingredientsSlice.selectors;
+export default ingredientsSlice.reducer;

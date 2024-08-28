@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import { useSelector } from '../../services/store';
+import { useSelector } from 'react-redux';
 import { AppHeaderUI } from '@ui';
 import { RootState } from '../../services/store';
 

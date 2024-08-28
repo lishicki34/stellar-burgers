@@ -20,6 +20,7 @@ export const ProfileUI: FC<ProfileUIProps> = ({
     <form
       className={`mt-30 ${styles.form} ${commonStyles.form}`}
       onSubmit={handleSubmit}
+      data-cy='user-profile'
     >
       <>
         <div className='pb-6'>

@@ -3,7 +3,7 @@ import { Preloader } from '../ui/preloader';
 import { OrderInfoUI } from '../ui/order-info';
 import { TIngredient } from '@utils-types';
 import { RootState, useDispatch, useSelector } from '../../services/store';
-import { getOrder } from '../../services/orderSlice';
+import { getOrder } from '../../services/slices/orderSlice';
 import { useParams } from 'react-router-dom';
 
 export const OrderInfo: FC = () => {
